@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<table border = "1"  style = "width:100%">
+		<tr>
+			<th> About - 110356037 </th>
+		</tr>
+	<table border = "1"  style = "width:100%">
+		<tr>
+			<td rowspan="3">
+			<img src="doggy.jpeg" width = "50" height = "50"><p> personal photo </p>
+			</td>
+			<td colspan="2">     
+			<label> Name: <input name="name" type="text" >
+            </label><br>
+            <form >
+            Gender:
+            <input type = "radio" name="gender" value="Male"> Male
+            <input type = "radio" name="gender" value="Female"> Female
+            <input type = "radio" name="gender" value="Other"> Other
+            </form>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+        	<form >
+        	Country:
+            <select name="country">
+            <option value = "Taipei">Taipei</option>
+            <option value = "Tainan">Tainan</option>
+            <option value = "Taichung" selected>Taichung</option>
+            <option value = "Taoyuang" selected>Taoyuang</option>
+            </select>
+            </form>
+            </td>
+            <td>
+            <form>
+            <label for="bookdate">Birthday：</label>
+            <input type="date" id="bookdate" placeholder="2014-09-18">
+            <input id="date" type="date">
+            </form>
+            </td>
+        </tr>
+        <tr>
+        	<td colspan="2"> 
+        	<label> E-mail: <input name="mail" type="text" >
+            </label><br>
+            </td>
+        </tr>
+    <table border = "1"  style = "width:100%">
+    	<tr>
+    	<td>Hobby</td>
+    	<td>
+    	<form >
+        <input type = "checkbox" name="sports" value="Swimming"> Swimming
+        <input type = "checkbox" name="sports" value="Volleyball"> Volleyball
+        <input type = "checkbox" name="sports" value="Movie"> Movie
+        <input type = "checkbox" name="sports" value="Game"> Game
+        <input type = "checkbox" name="sports" value="sleep"> sleep
+        </form></td>
+        </tr>
+        <tr>
+        <td>Skill</td>
+    	<td>
+    	<form >
+        <input type = "checkbox" name="program" value="Java"> Java
+        <input type = "checkbox" name="program" value="HTML"> HTML
+        <input type = "checkbox" name="program" value="Python"> Python
+        <input type = "checkbox" name="program" value="Microsoft Office"> Microsoft Office
+        <input type = "checkbox" name="program" value="Premiere"> Premiere
+        </form></td>
+        </tr>
+        <tr>
+        <td>Say Something</td>
+        <td>
+        <textarea  rows="4" cols="50">Say something here.
+        </textarea>
+        </td>
+    <table border = "1"  style = "width:100%">
+    	<tr>
+    	<input type = "submit" value= "提交">
+        <input type = "reset" value= "重設">
+        </tr>
+
+</body>
+</html> 
